@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-stage{
+    width: 100%;
+    min-height: 100vh;
+}
+.container-stage .top{
+    width: 100%;
+    min-height: 70vh;
+    background-color: #faf5ff;
+}
+.container-stage .bottom{
+    width: 100%;
+    min-height: 90vh;
+    background-color: #FFC0CB;
+}
+
+.boxoftwo2 {
+    display: flex;
+    justify-content: space-between; /* Pour séparer les éléments à gauche et à droite */
+    align-items: center; /* Pour aligner les éléments verticalement */
+    height: 500px; /* Ajustez selon vos besoins */
+    gap: 30px; /* Espacement entre les éléments */
+    position: relative;
+    margin: 150px auto 20px auto; 
+    margin-bottom: 500px;
+
+}
+
+.left {
+}
+
+.right {
+}
+
+
+.textR1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 150px auto 20px auto; 
+    max-width: 350px;
+}
+
+.textR1 {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 0;
+    margin-top: 40px;
+    margin-left: 10%;
+}
+
+.textR1 p {
+    font-size: 16px;
+    color: #6b7280;
+}
+
+
+.textR2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 250px auto 20px auto; 
+    max-width: 350px;
+}
+
+.textR2 {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 0;
+    margin-top: 60px;
+    margin-left: 10%;
+}
+
+.textR2 p {
+    font-size: 16px;
+    color: #6b7280;
+}
+
+
+
+
+
+/*DROITE*/
+
+.container-stage .right {
+    width: 700px;
+    height: 400px;
+    overflow: hidden;
+ }
+ 
+ .container-stage .right img {
+    width: 100%;
+    height: 100%;
+    display: block;
+ }
+ 
+ 
+ .slider-container {
+    position: relative;
+    width: 700px;
+     height: 400px;
+    overflow: hidden; 
+ }
+ 
+ .slides {
+    display: flex;
+    transition: transform 0.5s ease; 
+ }
+ 
+ /* Images individuelles */
+ .slides img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+ }
+ 
+ /* Points de navigation */
+ .dots-container {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+ }
+ 
+ .dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #888;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+ }
+ 
+ .active {
+    background-color: #333; /* Couleur des points actifs */
+ }
+ 

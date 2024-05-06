@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+ .container-veille{
+    width: 100%;
+    min-height: 100vh;
+    margin: 0 auto; /* Centre le conteneur horizontalement */
+
+}
+.container-veille .topV{
+    width: 75%;
+    height: 150px;
+    margin: 0 auto;
+}
+.container-veille .bottomV{
+    width: 100%;
+}
+
+/*
+.laveille{
+    margin-top: 120px;
+    width: 100%;
+    min-height: 10vh;
+    background-color: blueviolet;
+}
+ 
+  .vt {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.titleV {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.titleV span {
+    color: #007bff; /* Couleur bleue pour le mot "veille technologique" 
+}
+
+.descriptionV {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.certificationsV {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; /* Déplacer les colonnes vers la gauche 
+    margin: 370px auto 20px auto; /* Ajout de 20px de marge en haut 
+    max-width: 1200px;
+}
+
+.columnV {
+    width: calc(33.33% - 20px); /* 33.33% pour chaque colonne avec une marge de 20px entre elles 
+    margin-bottom: 20px;
+    background-color: #f8f9fa; /* Couleur de fond pour les colonnes 
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.certificationV {
+    padding: 50px; /* Réduire l'espacement interne pour les certifications 
+    text-align: center;
+    margin-right: 100px;
+}
+
+.certificationV img {
+    width: 80px; /* Ajustez la taille des images selon vos besoins 
+
+    margin-bottom: 10px;
+}
+*/
+.textV{
+        justify-content: center;
+      margin-top: 120px;
+      align-items: center;
+      text-align: center;
+      margin-left: 25px;
+
+      
+}
+
+.containerV {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Trois colonnes de largeur égale */
+  gap: 20px; /* Espacement entre les éléments */
+  padding: 20px;
+  margin-left: 230px;
+
+}
+
+.product {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 15px;
+  padding: 20px;
+  text-align: center;
+  width: 300px;
+}
+
+.product-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.product-description {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.product-lien{
+  font-size: 16px;
+  color: #e44d26;
+  margin-bottom: 10px;
+}
+
+
+.product-image img {
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin: auto;
+}
+
+.container2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.block-imgV{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+
+}

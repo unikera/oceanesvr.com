@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+:root {
+  --primary-color: #a855f7;
+  --primary-color-dark: #9333ea;
+  --secondary-color: #ca8a04;
+  --text-dark: #1f2937;
+  --text-light: #6b7280;
+  --extra-light: #faf5ff;
+  --max-width: 1200px;
+}
+
+
+
+/* Style de base */
+
+
+.myself {
+    width: 60%;
+    margin: 200px auto 50px auto; 
+   /* text-align: left;*/
+}
+
+.myself h1 {
+    font-size: 50px;
+    color: #FFC0CB;
+   /* margin left: 100px;;*/
+
+}
+
+.myself p {
+    font-size: 20PX;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    margin-bottom: 2rem;
+    color:#6b7280;
+}
+
+.myselfLien {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.myselfLien ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.myselfLien ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.myselfLien ul li a {
+    color: #666;
+    font-size: 24px;
+}

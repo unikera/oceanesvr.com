@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+:root {
+  --primary-color: #a855f7;
+  --primary-color-dark: #9333ea;
+  --secondary-color: #ca8a04;
+  --text-dark: #1f2937;
+  --text-light: #6b7280;
+  --extra-light: #faf5ff;
+  --max-width: 1200px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* Style des colonnes */
+.certifications {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 120px auto 20px auto; /* Ajout de 20px de marge en haut */
+    max-width: 1200px;
+}
+
+.column {
+    width: calc(33.33% - 20px); /* 33.33% pour chaque colonne avec une marge de 20px entre elles */
+    margin-bottom: 20px;
+}
+
+
+.certification {
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.certification h2 {
+    font-size: 20px;
+    color: #FFC0CB;
+}
+
+.certification p {
+    font-size: 16px;
+    color: #6b7280;
+}
+
+.certification a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #007bff;
+}
+
+.certification a:hover {
+    text-decoration: underline;
+}
+
+

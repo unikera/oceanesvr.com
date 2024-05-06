@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+:root {
+  --primary-color: #a855f7;
+  --primary-color-dark: #9333ea;
+  --secondary-color: #ca8a04;
+  --text-dark: #1f2937;
+  --text-light: #6b7280;
+  --extra-light: #faf5ff;
+  --max-width: 1200px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+    background-color: var(--extra-light);
+    display: flex;
+    justify-content: center;  /*Pour centrer les cases horizontalement */
+}
+
+.realisations {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+    max-width: var(--max-width); /*Pour limiter la largeur des cases */
+}
+
+.realisation {
+    perspective: 1000px;
+    width: 370px;
+    height: 250px;
+    margin-bottom: 20px;
+    position: relative;
+    text-decoration: none;
+}
+
+.realisation {
+    display: flex;
+}
+.realisation h2{
+    font-size: 20px;
+color: #FFC0CB;
+}
+
+.verso {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.realisation .recto,
+.realisation .verso {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+    transition: transform 0.6s;
+}
+
+.realisation .recto {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.realisation .verso {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    transform: rotateY(180deg);
+}
+
+
+.realisation:hover .recto {
+    transform: rotateY(180deg);
+}
+
+.realisation:hover .verso {
+    transform: rotateY(0deg);
+}
+
+.realisation .recto img {
+  
+    width: 370px;
+    height: 250px;
+    display: block; 
+
+    border-radius: 10px; /* Ajoutez le même rayon de bordure que votre carte */
+  
+}
+
+.block-img {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 100px;
+}
+
+
+/*Cv en ligne*/
+
+.textR {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 150px auto 20px auto; 
+    max-width: 350px;
+}
+
+.textR {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 0;
+    margin-top: 50px;
+}
+
+.textR p {
+    font-size: 16px;
+    color: #6b7280;
+}
+
+.boxoftwo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 500px;
+    gap: 50px;
+    position: relative;
+    margin: 150px auto 20px auto; 
+
+}
+
+.container-cvenligne .left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+
+}
+/*
+.container-cvenligne .right{
+    width: 700px;
+    background-color: #1f2937;
+    height: 400px;
+}
+.container-cvenligne .right img{
+    width: 700px;
+    background-color: #ff3700;
+    height: 400px;
+}*/
+
+.container-cvenligne .right {
+    width: 700px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.container-cvenligne .right img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    transition: transform 0.5s ease-in-out;
+}
+
+.pdf-button {
+    position: fixed;
+    bottom: 12px; /* Ajustez cette valeur selon votre préférence */
+    right: 20px; /* Ajustez cette valeur selon votre préférence */
+    z-index: 9999; /* Assurez-vous que le bouton soit au-dessus de tout autre contenu */
+    background-color: #FFC0CB; /* Couleur de fond bleue (modifiable selon vos préférences) */
+    color: #ffffff; /* Couleur du texte blanc */
+    border-radius: 10px; /* Coins arrondis */
+    padding: 10px 20px; /* Espacement interne pour le contenu */
+    text-decoration: none; /* Supprime le soulignement par défaut du lien */
+}
+
+.pdf-button:hover {
+    background-color: #cccccc; /* Couleur de fond bleue plus foncée au survol */
+}
