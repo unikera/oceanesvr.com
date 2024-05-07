@@ -1,7 +1,7 @@
 <div class="myselfLien">
         <ul>
-            <li><a href="www.linkedin.com/in/océane-savonnier-bb50a825a"><img src="images/linkedin.png" alt="LinkedIn"></a></li>
-            <li><a href="https://www.instagram.com/oceane.svr/"><img src="images/instagram.png" alt="Instagram"></a></li>
+            <li><a href="https://www.linkedin.com/in/océane-savonnier-bb50a825a" target="_blank"><img src="images/linkedin.png" alt="LinkedIn"></a></li>
+            <li><a href="https://www.instagram.com/oceane.svr/" target="_blank"><img src="images/instagram.png" alt="Instagram"></a></li>
         </ul>
     </div>
        <div class="container-stageA">

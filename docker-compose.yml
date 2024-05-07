@@ -8,8 +8,6 @@ services:
     command: php -S 0.0.0.0:3880 -t .
     ports:
       - "3880:3880"
-    volumes:
-      - .:/var/www/html
     depends_on:
       - db
     networks:
