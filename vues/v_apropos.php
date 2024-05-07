@@ -10,7 +10,7 @@
                <section class="myself">
                    <h1>Qui est Océane SAVONNIER<br>
                        en quelque mots?</h1>
-                   <p>Je suis une femme agé de 19 ans, actuellement<br>
+                   <p>Je suis une femme agée de 19 ans, actuellement<br>
                        scolorisé au LGT Baimbridge, à les Abymes.<br>
                        Au sein de cette établissement j'effectue un <br>
                        BTS Services informatiques aux organisations.<br>

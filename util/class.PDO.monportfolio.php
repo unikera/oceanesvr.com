@@ -2,10 +2,10 @@
 
 class PdoFolio
 {
-    private static $serveur = 'mysql:host=localhost';
+    private static $serveur = 'mysql:host=db';
     private static $bdd = 'dbname=monportfolio';
     private static $user = 'root';
-    private static $mdp = '';
+    private static $mdp = 'rootpassword';
     private static $monPdo;
     private static $monPdoFolio = null;
 
