@@ -7,7 +7,7 @@
           </h1>
           <p class="description">
             Bienvenu sur mon portfolio! Je suis Océane une jeune étudiante
-             en informatique, exploratrice du code, créatrice de solutions, 
+             en informatique, exploratrice du code, créatrice de solutions 
              et passionnée par l'innovation technologique. 
              Plongez  dans mon univers numérique où la créativité rencontre la fonctionnalité.
           </p>
