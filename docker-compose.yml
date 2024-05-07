@@ -2,9 +2,8 @@ version: '3.8'
 
 services:
   app:
-    image: php:8.1-apache
+    image: edobxt/oceane-svr-portfolio:latest
     container_name: oceane-svr-portfolio
-    build: .
     working_dir: /var/www/html
     command: php -S 0.0.0.0:3880 -t .
     ports:

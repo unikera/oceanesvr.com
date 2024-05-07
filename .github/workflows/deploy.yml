@@ -51,4 +51,3 @@ jobs:
             cd /root/PortfolioOcSvr
             docker-compose down
             docker-compose up -d
-
