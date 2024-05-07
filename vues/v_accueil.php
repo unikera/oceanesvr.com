@@ -6,10 +6,9 @@
             Je m'appelle <span>Océane<br />et</span> je suis étudiante en BTS SIO
           </h1>
           <p class="description">
-            Bienvenu sur mon portfolio! Je suis Océane une jeune étudiante
-             en informatique, exploratrice du code, créatrice de solutions 
-             et passionnée par l'innovation technologique. 
-             Plongez  dans mon univers numérique où la créativité rencontre la fonctionnalité.
+            Bienvenue sur mon portfolio! Je suis Océane une jeune étudiante
+             en informatique, exploratrice du code, créatrice de solutions et passionnée par l'innovation technologique. 
+             Plongez dans mon univers numérique où la créativité rencontre la fonctionnalité.
           </p>
           <div class="action__btns">
             <button class="hire__me"> <a href="index.php?uc=realisations">C'est partie!</a></button>
